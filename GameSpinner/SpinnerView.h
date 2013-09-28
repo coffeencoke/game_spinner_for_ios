@@ -12,4 +12,5 @@
 @interface SpinnerView : UIView
 @property (nonatomic) Spinner *spinner;
 - (id)initWithSpinner:(Spinner *)spinner;
+- (void)renderSpinner;
 @end

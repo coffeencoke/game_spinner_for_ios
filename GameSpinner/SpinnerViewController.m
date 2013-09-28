@@ -10,9 +10,23 @@
 #import "SpinnerView.h"
 #import "Spinner.h"
 
+@interface SpinnerViewController ()
+@property (nonatomic) SpinnerView *spinnerView;
+@end
+
 @implementation SpinnerViewController
 - (void)loadView{
     Spinner *spinner = [Spinner new];
-    self.view = [[SpinnerView alloc] initWithSpinner:spinner];
+    self.spinnerView = [[SpinnerView alloc] initWithSpinner:spinner];
+    self.view = self.spinnerView;
+}
+
+- (void)viewDidLoad{
+    [super viewDidLoad];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self.spinnerView renderSpinner];
 }
 @end
