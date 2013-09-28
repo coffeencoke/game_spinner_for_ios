@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  GameSpinnerForIos
+//  GameSpinner
 //
 //  Created by Matthew Simpson on 9/22/13.
 //  Copyright (c) 2013 Matt Simpson. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "SpinnerViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    SpinnerViewController *mainSpinnerViewController = [[SpinnerViewController alloc] init];
+    [self.window setRootViewController:mainSpinnerViewController];
     return YES;
 }
 

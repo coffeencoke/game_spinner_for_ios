@@ -1,7 +1,6 @@
 [
-  "-project", "GameSpinnerForIos.xcodeproj",
-  "-scheme", "GameSpinnerForIos",
+  "-project", "GameSpinner.xcodeproj",
+  "-scheme", "GameSpinner",
   "-configuration", "Debug",
-  "-sdk", "iphonesimulator",
-  "-arch", "i386"
+  "-sdk", "iphonesimulator"
 ]

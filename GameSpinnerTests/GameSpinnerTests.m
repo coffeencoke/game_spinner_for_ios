@@ -1,6 +1,6 @@
 //
-//  GameSpinnerForIosTests.m
-//  GameSpinnerForIosTests
+//  GameSpinnerTests.m
+//  GameSpinnerTests
 //
 //  Created by Matthew Simpson on 9/22/13.
 //  Copyright (c) 2013 Matt Simpson. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface GameSpinnerForIosTests : XCTestCase
+@interface GameSpinnerTests : XCTestCase
 
 @end
 
-@implementation GameSpinnerForIosTests
+@implementation GameSpinnerTests
 
 - (void)setUp
 {
