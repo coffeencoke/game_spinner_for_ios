@@ -22,6 +22,7 @@
 		C92CF34A17F53EA000BDB4B4 /* SpinnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CF34917F53EA000BDB4B4 /* SpinnerViewController.m */; };
 		C92CF34D17F54AFB00BDB4B4 /* SpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92CF34C17F54AFB00BDB4B4 /* SpinnerView.m */; };
 		C96995E417F756F00018DDD7 /* Spinner.m in Sources */ = {isa = PBXBuildFile; fileRef = C96995E317F756F00018DDD7 /* Spinner.m */; };
+		C96995E717F783A30018DDD7 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C96995E617F783A30018DDD7 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C92CF34C17F54AFB00BDB4B4 /* SpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerView.m; sourceTree = "<group>"; };
 		C96995E217F756F00018DDD7 /* Spinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spinner.h; sourceTree = "<group>"; };
 		C96995E317F756F00018DDD7 /* Spinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spinner.m; sourceTree = "<group>"; };
+		C96995E517F783A30018DDD7 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		C96995E617F783A30018DDD7 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 				C92CF34917F53EA000BDB4B4 /* SpinnerViewController.m */,
 				C92CF34B17F54AFB00BDB4B4 /* SpinnerView.h */,
 				C92CF34C17F54AFB00BDB4B4 /* SpinnerView.m */,
+				C96995E517F783A30018DDD7 /* CircleView.h */,
+				C96995E617F783A30018DDD7 /* CircleView.m */,
 				C96995E217F756F00018DDD7 /* Spinner.h */,
 				C96995E317F756F00018DDD7 /* Spinner.m */,
 			);
@@ -264,6 +269,7 @@
 			files = (
 				C92CF32917EFDF8200BDB4B4 /* AppDelegate.m in Sources */,
 				C92CF32517EFDF8200BDB4B4 /* main.m in Sources */,
+				C96995E717F783A30018DDD7 /* CircleView.m in Sources */,
 				C92CF34D17F54AFB00BDB4B4 /* SpinnerView.m in Sources */,
 				C92CF34A17F53EA000BDB4B4 /* SpinnerViewController.m in Sources */,
 				C96995E417F756F00018DDD7 /* Spinner.m in Sources */,
