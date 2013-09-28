@@ -10,9 +10,13 @@
 
 @implementation SpinnerView
 - (id)initWithSpinner:(Spinner *)spinner{
-    self = [super init];
-    NSString *radiusString = [[spinner radius] stringValue];
+    self = [self init];
+    NSString *radiusString = [[spinner radius ] stringValue];
     NSLog(radiusString);
     return self;
+}
+
+- (void)viewDidLoad{
+    NSLog(@"Loaded");
 }
 @end

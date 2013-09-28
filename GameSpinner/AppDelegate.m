@@ -17,8 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    SpinnerViewController *mainSpinnerViewController = [[SpinnerViewController alloc] init];
-    [self.window setRootViewController:mainSpinnerViewController];
+    SpinnerViewController *spinnerViewController = [SpinnerViewController new];
+    [self.window setRootViewController:spinnerViewController];
     return YES;
 }
 
