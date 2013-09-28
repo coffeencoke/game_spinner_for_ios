@@ -9,18 +9,18 @@
 #import "CircleView.h"
 
 @interface CircleView ()
-@property (nonatomic) NSNumber *radius;
+@property (nonatomic) int diameter;
 @end
 
 @implementation CircleView
-- (id)initWithRadius:(NSNumber *)radius{
-    self = [super initWithFrame:CGRectMake(10,20,100,100)];
-    self.radius = radius;
+- (id)initWithRadius:(int)radius andX:(CGFloat) xCoordinate andY:(CGFloat) yCoordinate{
+    self.diameter = (radius * 2);
+    self = [super initWithFrame:CGRectMake(xCoordinate,yCoordinate,self.diameter,self.diameter)];
     return self;
 }
 - (void)draw{
     self.alpha = 0.5;
-    self.layer.cornerRadius = 50;
+    self.layer.cornerRadius = self.diameter/2;
     self.backgroundColor = [UIColor blueColor];
 }
 @end

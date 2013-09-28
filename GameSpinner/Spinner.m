@@ -11,7 +11,7 @@
 @implementation Spinner
 
 - (id) init {
-    self.radius = @100;
+    self.radius = 100;
     return self;
 }
 @end

@@ -10,5 +10,5 @@
 
 
 @interface Spinner : NSObject
-@property (nonatomic) NSNumber *radius;
+@property (nonatomic) int radius;
 @end

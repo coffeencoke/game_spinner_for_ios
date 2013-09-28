@@ -11,6 +11,8 @@
 
 @interface SpinnerView ()
 @property (nonatomic) CircleView *circleView;
+@property (nonatomic) CGFloat xCoordinate;
+@property (nonatomic) CGFloat yCoordinate;
 @end
 
 @implementation SpinnerView
@@ -22,7 +24,7 @@
 }
 
 - (void)loadCircleView{
-    self.circleView = [[CircleView alloc] initWithRadius:self.spinner.radius];
+    self.circleView = [[CircleView alloc] initWithRadius:self.spinner.radius andX:self.xCoordinate andY:self.yCoordinate];
     [self addSubview:self.circleView];
 }
 
