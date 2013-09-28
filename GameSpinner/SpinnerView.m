@@ -11,8 +11,7 @@
 @implementation SpinnerView
 - (id)initWithSpinner:(Spinner *)spinner{
     self = [self init];
-    NSString *radiusString = [[spinner radius ] stringValue];
-    NSLog(radiusString);
+    self.spinner = spinner;
     return self;
 }
 

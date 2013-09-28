@@ -10,5 +10,6 @@
 #import "Spinner.h"
 
 @interface SpinnerView : UIView
+@property (nonatomic) Spinner *spinner;
 - (id)initWithSpinner:(Spinner *)spinner;
 @end
