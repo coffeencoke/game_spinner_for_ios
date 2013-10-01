@@ -19,6 +19,7 @@
 - (id)initWithSpinner:(Spinner *)spinner{
     self = [self init];
     self.spinner = spinner;
+    [self setCoordinates];
     [self loadCircleView];
     return self;
 }
@@ -30,5 +31,21 @@
 
 - (void)renderSpinner{
     [self.circleView draw];
+}
+
+- (void)setCoordinates{
+    int circleDiameter = self.spinner.radius*2;
+    self.xCoordinate = ([self screenWidth] - circleDiameter) / 2;
+    self.yCoordinate = ([self screenHeight] - circleDiameter) / 2;
+}
+
+- (CGFloat)screenHeight{
+    CGRect bound = [[UIScreen mainScreen] bounds];
+    return bound.size.height;
+}
+
+- (CGFloat)screenWidth{
+    CGRect bound = [[UIScreen mainScreen] bounds];
+    return bound.size.width;
 }
 @end
