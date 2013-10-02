@@ -10,5 +10,4 @@
 
 @interface CircleView : UIView
 - (id)initWithRadius:(int)radius andX:(CGFloat) xCoordinate andY:(CGFloat) yCoordinate;
-- (void)draw;
 @end

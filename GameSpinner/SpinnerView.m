@@ -29,10 +29,6 @@
     [self addSubview:self.circleView];
 }
 
-- (void)renderSpinner{
-    [self.circleView draw];
-}
-
 - (void)setCoordinates{
     int circleDiameter = self.spinner.radius*2;
     self.xCoordinate = ([self screenWidth] - circleDiameter) / 2;
